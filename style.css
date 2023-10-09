@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+body
+{
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+    background-color: rgb(1, 1, 49) ;
+
+
+}
+h1
+{
+ margin-top: 2%;   
+ color: whitesmoke;
+ text-align: center;
+ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ font-weight: 100;
+ 
+}
+.cont
+{
+ width: 1280px;
+ margin: auto;   
+}
+.quotes-cont
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.inner-quotes-cont
+{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    flex-direction: column;
+    width: 900px;
+    text-align: center;
+    min-height: 400px;
+    padding: 0px 25px;
+    background-color: antiquewhite;
+    box-shadow: 20px 4px 56px 15px black;
+}
+.inner-quotes-cont p
+{
+    font-size: 1.5rem;
+    color: black;
+    font-family: 'Poppins',sans-serif;
+
+
+}
+.inner-quotes-cont h3
+{
+    font-size: 2rem;
+    color: black;
+    font-family: 'Dancing Script', cursive;
+    
+}
+button
+{
+    background-color: black;
+    color: aliceblue;
+    border:  1px solid rgb(1, 1, 49) ;
+    padding: 10px;
+    outline: none;
+}
+.quote-btn{
+    padding-top: 25px;
+}
+@media(max-width:1280px)  {
+    .cont{
+        width: 95%;
+    }
+    
+}
+@media(max-width:900px)  {
+    .h1{
+        margin-top: 2%;
+    }
+    .inner-quotes-cont{
+        width: 100%;
+    }
+}
+.inner-quotes-cont h3
+{
+    font-size: 2rem;
+    color: black;
+    font-family: 'Dancing Script', cursive;
+    padding-left: 5%;
+    
+}
+    
+
+@media(max-width:480px)  {
+    .inner-quotes-cont p {
+        font-size:  1.2rem;   }
+    .inner-quotes-cont h3 {
+       
+    }
+}
